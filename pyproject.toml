@@ -1,0 +1,18 @@
+[project]
+name = "pyChatGPT-intl"
+version = "0.0.1"
+authors = [
+  { name="Asiri Hewage", email="foolmashi@gmail.com" },
+]
+description = "Enhanced ChatGPT Wrapper for Internationalization - Python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/asirihewage/pyChatGPT-intl"
+"Bug Tracker" = "https://github.com/asirihewage/pyChatGPT-intl/issues"
