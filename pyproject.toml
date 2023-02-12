@@ -16,3 +16,7 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/asirihewage/pyChatGPT-intl"
 "Bug Tracker" = "https://github.com/asirihewage/pyChatGPT-intl/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
