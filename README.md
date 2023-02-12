@@ -10,13 +10,20 @@ This NodeJS module acts as a wrapper for ChatGPT API and will help you to use Ch
 Install chatgpt-intl via pip : https://pypi.org/project/pyChatGPT-intl/
 
 ```bash
- pip install chatGPT-intl
+ pip install pyChatGPT-intl
 ```
 
 ## Usage/Examples
 First, you have to obtain your API key from OPENAI, then you can use it here.
 ```python
-pip install chatGPT-intl
+from pyChatGPT-intl import PyChatGPTIntl
+
+api_key = "sk-Z9bfKN34RT***********RtH4j0FCacAxD"
+desired_lang ="si"
+
+pyChatGPTIntl = PyChatGPTIntl(api_key, desired_lang)
+print(pyChatGPTIntl.generate_text("ශ්‍රී ලංකාව ගැන මට විස්තරයක් කියන්න"))
+
 ```
 
 ## API
