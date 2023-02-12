@@ -15,7 +15,6 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/asirihewage/pyChatGPT-intl',
     author='Asiri Hewage',
-    author_email='foolmashi@gmail.com',
     license='GNU General Public License v3 (GPLv3)',
     packages=find_packages(),
     zip_safe=False,
