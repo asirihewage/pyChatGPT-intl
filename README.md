@@ -7,7 +7,7 @@ This NodeJS module acts as a wrapper for ChatGPT API and will help you to use Ch
 
 ## Installation
 
-Install chatgpt-intl via pip : https://github.com/asirihewage/pyChatGPT-intl
+Install chatgpt-intl via pip : https://pypi.org/project/pyChatGPT-intl/
 
 ```bash
  pip install chatGPT-intl
