@@ -6,7 +6,7 @@ from setuptools import find_packages
 
 setup(
     name='pyChatGPT-intl',
-    version="0.0.4",
+    version="0.0.5",
     description='This Python3 module acts as a wrapper for ChatGPT API and will help you to use ChatGPT in your own '
                 'language.',
     long_description='This Python3 module acts as a wrapper for ChatGPT API and will help you to use ChatGPT in your '

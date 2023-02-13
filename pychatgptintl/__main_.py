@@ -1,5 +1,5 @@
-from languages import is_supported
 from pychatgptintl.translator import AutoTranslate
+from languages import is_supported
 
 import requests
 import json
