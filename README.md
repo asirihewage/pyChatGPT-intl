@@ -3,8 +3,8 @@
 ![Package Size](https://img.shields.io/github/languages/code-size/asirihewage/chatGPT-intl)
 [![Upload Python Package](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/python-publish.yml/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/python-publish.yml)
 [![Pylint](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/pylint.yml/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/pylint.yml)
-<object id="badge" data="https://snyk-widget.herokuapp.com/badge/pip/pyChatGPT-intl/badge.svg" type="image/svg+xml"></object>
-
+[![Snyk](https://snyk-widget.herokuapp.com/badge/pip/pyChatGPT-intl/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/codeql.yml)
+[![CodeQL](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/codeql.yml/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/codeql.yml)
 ### Enhanced ChatGPT Wrapper for Internationalization - Python3
 This NodeJS module acts as a wrapper for ChatGPT API and will help you to use ChatGPT in your own language.
 ![Logo](res/logo.jpg)
