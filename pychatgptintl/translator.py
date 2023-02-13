@@ -3,6 +3,9 @@ import requests
 
 class AutoTranslate:
     def __init__(self):
+        """
+        AutoTranslate constructor
+        """
         self.apis = [
             {"name": "Google Translate API",
              "endpoint": "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=%s&dt=t&q=%s"},
@@ -14,6 +17,9 @@ class AutoTranslate:
         ]
 
     def translate(self, text, target_language):
+        """
+        AutoTranslate translate
+        """
         for api in self.apis:
             endpoint = api["endpoint"] % (target_language, text)
             response = requests.get(endpoint)

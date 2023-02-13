@@ -3,6 +3,7 @@
 ![Package Size](https://img.shields.io/github/languages/code-size/asirihewage/chatGPT-intl)
 [![Upload Python Package](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/python-publish.yml/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/python-publish.yml)
 [![Pylint](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/pylint.yml/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/pylint.yml)
+<object id="badge" data="https://snyk-widget.herokuapp.com/badge/pip/pyChatGPT-intl/badge.svg" type="image/svg+xml"></object>
 
 ### Enhanced ChatGPT Wrapper for Internationalization - Python3
 This NodeJS module acts as a wrapper for ChatGPT API and will help you to use ChatGPT in your own language.
@@ -18,13 +19,22 @@ Install chatgpt-intl via pip : https://pypi.org/project/pyChatGPT-intl/
 
 ## Usage/Examples
 First, you have to obtain your API key from OPENAI, then you can use it here.
-```python
+```python3
 from pyChatGPT-intl import PyChatGPTIntl
 
 api_key = "sk-Z9bfKN34RT***********RtH4j0FCacAxD"
 desired_lang ="si"
 
-pyChatGPTIntl = PyChatGPTIntl(api_key, desired_lang)
+opts = {
+                "model": "text-davinci-003",
+                "temperature": 0.5,
+                "max_tokens": 100,
+                "top_p": 1,
+                "frequency_penalty": 0,
+                "presence_penalty": 0
+            }
+
+pyChatGPTIntl = PyChatGPTIntl(api_key, desired_lang, opts)
 print(pyChatGPTIntl.generate_text("ශ්‍රී ලංකාව ගැන මට විස්තරයක් කියන්න"))
 
 ```
@@ -32,11 +42,11 @@ print(pyChatGPTIntl.generate_text("ශ්‍රී ලංකාව ගැන ම
 ## API
 text - Type: string (The text to be translated)
 
-openAiKey - Type: string (API Key obtained from OpenAI Developer Account)
+api_key - Type: string (API Key obtained from OpenAI Developer Account)
 
 opts - Type: object (OpenAI Language Model and hyperparameters)
 
-lang - Type: string ( Must be `auto` or one of the codes (not case sensitive) contained in [SUPPORTED_LANGUAGES.md](https://github.com/asirihewage/pyChatGPT-intl/blob/main/SUPPORTED_LANGUAGES.md).)
+desired_lang - Type: string ( Must be `auto` or one of the codes (not case sensitive) contained in [SUPPORTED_LANGUAGES.md](https://github.com/asirihewage/pyChatGPT-intl/blob/main/SUPPORTED_LANGUAGES.md).)
 
 ## Features
 
