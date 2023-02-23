@@ -1,8 +1,5 @@
 # pyChatGPT-intl
-![Version](https://img.shields.io/github/package-json/v/asirihewage/pyChatGPT-intl)
 ![Package Size](https://img.shields.io/github/languages/code-size/asirihewage/pyChatGPT-intl)
-[![Upload Python Package](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/python-publish.yml/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/python-publish.yml)
-[![Pylint](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/pylint.yml/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/pylint.yml)
 [![Snyk](https://snyk-widget.herokuapp.com/badge/pip/pyChatGPT-intl/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/codeql.yml)
 [![CodeQL](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/codeql.yml/badge.svg)](https://github.com/asirihewage/pyChatGPT-intl/actions/workflows/codeql.yml)
 ### Enhanced ChatGPT Wrapper for Internationalization - Python3
